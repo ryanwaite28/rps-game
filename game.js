@@ -89,12 +89,10 @@ function getWinner(playerMove,computerMove) {
 	   $('#player-score').text(playerWins);
 	   $('#update').text('Player Won Last Round.');
 	   
-<<<<<<< HEAD
+
 	   $('#p-img').attr('src', 'rock-1.jpg');
 	   $('#c-img').attr('src', 'scissors-2.jpg');
-	   
-=======
->>>>>>> 24397f00bed40c6c25b09eb2ed6250fc4c2d54f1
+
 	   $('#p-move').text('rock');
 	   $('#c-move').text('scissors');
    }
@@ -102,12 +100,9 @@ function getWinner(playerMove,computerMove) {
 		winner = "tie";
 		$('#update').text('Tie Last Round.');
 		
-<<<<<<< HEAD
 		$('#p-img').attr('src', 'rock-1.jpg');
 		$('#c-img').attr('src', 'rock-2.jpg');
-		
-=======
->>>>>>> 24397f00bed40c6c25b09eb2ed6250fc4c2d54f1
+
 	    $('#p-move').text('rock');
 	    $('#c-move').text('rock');
    }
@@ -116,13 +111,10 @@ function getWinner(playerMove,computerMove) {
 	   computerWins++;
 	   $('#cpu-score').text(computerWins);
 	   $('#update').text('Computer Won Last Round.');
-	   
-<<<<<<< HEAD
+
 	   $('#p-img').attr('src', 'rock-1.jpg');
 	   $('#c-img').attr('src', 'paper-2.jpg');
-	   
-=======
->>>>>>> 24397f00bed40c6c25b09eb2ed6250fc4c2d54f1
+
 	   $('#p-move').text('rock');
 	   $('#c-move').text('paper');
    }
@@ -131,13 +123,10 @@ function getWinner(playerMove,computerMove) {
 	   computerWins++;
 	   $('#cpu-score').text(computerWins);
 	   $('#update').text('Computer Won Last Round.');
-	   
-<<<<<<< HEAD
+
 	   $('#p-img').attr('src', 'paper-1.jpg');
 	   $('#c-img').attr('src', 'scissors-2.jpg');
-	   
-=======
->>>>>>> 24397f00bed40c6c25b09eb2ed6250fc4c2d54f1
+
 	   $('#p-move').text('paper');
 	   $('#c-move').text('scissors');
    }
@@ -146,39 +135,30 @@ function getWinner(playerMove,computerMove) {
 	   playerWins++;
 	   $('#player-score').text(playerWins);
 	   $('#update').text('Player Won Last Round.');
-	   
-<<<<<<< HEAD
+
 	   $('#p-img').attr('src', 'paper-1.jpg');
 	   $('#c-img').attr('src', 'rock-2.jpg');
-	   
-=======
->>>>>>> 24397f00bed40c6c25b09eb2ed6250fc4c2d54f1
+
 	   $('#p-move').text('paper');
 	   $('#c-move').text('rock');
    }
    else if(playerAnswer == "paper" && computerAnswer == "paper"){
 	   winner = "tie";
 	   $('#update').text('Tie Last Round.');
-	   
-<<<<<<< HEAD
+
 	   $('#p-img').attr('src', 'paper-1.jpg');
 	   $('#c-img').attr('src', 'paper-2.jpg');
-	   
-=======
->>>>>>> 24397f00bed40c6c25b09eb2ed6250fc4c2d54f1
+
 	   $('#p-move').text('paper');
 	   $('#c-move').text('paper');
    }
    else if(playerAnswer == "scissors" && computerAnswer == "scissors"){
 	   winner = "tie";
 	   $('#update').text('Tie Last Round.');
-	   
-<<<<<<< HEAD
+
 	   $('#p-img').attr('src', 'scissors-1.jpg');
 	   $('#c-img').attr('src', 'scissors-2.jpg');
-	   
-=======
->>>>>>> 24397f00bed40c6c25b09eb2ed6250fc4c2d54f1
+
 	   $('#p-move').text('scissors');
 	   $('#c-move').text('scissors');
    }
@@ -187,13 +167,10 @@ function getWinner(playerMove,computerMove) {
 	   computerWins++;
 	   $('#cpu-score').text(computerWins);
 	   $('#update').text('Computer Won Last Round.');
-	   
-<<<<<<< HEAD
+
 	   $('#p-img').attr('src', 'scissors-1.jpg');
 	   $('#c-img').attr('src', 'rock-2.jpg');
-	   
-=======
->>>>>>> 24397f00bed40c6c25b09eb2ed6250fc4c2d54f1
+
 	   $('#p-move').text('scissors');
 	   $('#c-move').text('rock');
    }
@@ -202,13 +179,10 @@ function getWinner(playerMove,computerMove) {
 	   playerWins++;
 	   $('#player-score').text(playerWins);
 	   $('#update').text('Player Won Last Round.');
-	   
-<<<<<<< HEAD
+
 	   $('#p-img').attr('src', 'scissors-1.jpg');
 	   $('#c-img').attr('src', 'paper-2.jpg');
-	   
-=======
->>>>>>> 24397f00bed40c6c25b09eb2ed6250fc4c2d54f1
+
 	   $('#p-move').text('scissors');
 	   $('#c-move').text('paper');
    }
